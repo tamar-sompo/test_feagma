@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.td_content{
+  text-align: center;
+}
+.table{
+  width: 68%;
+  font-size: .8vw;
+}
+.wrap_table{
+  overflow-y: auto;
+  margin-top: 3%;
+  /* height: 100% !important; */
+}
+.box{
+  cursor:move !important;
+}
+td{
+ background-color:  #F6F6F6 !important;
+}
+tbody, td, tfoot, th, thead, tr {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+.title{
+  text-align: center;
 }
